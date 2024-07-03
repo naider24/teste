@@ -1,34 +1,19 @@
 {
-  
+  "name": "servidor-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sendZPL.js",
   "scripts": {
-  
-    
-  "start": "nodemon sendZPL.js"
-  
+    "start": "node sendZPL.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-  
-    
-  "bluetooth": "^3.0.0",
-  
-    
-  "bluetooth-serial-port": "^3.0.2",
-  
-    
-  "body-parser": "^1.20.2",
-  
-    
-  "cors": "^2.8.5",
-  
-    
-  "express": "^4.19.2",
-  
-    
-  "node": "^20.15.0",
-  
-    
-  "nodemon": "^3.1.4"
-  
+    "bluetooth-serial-port": "^3.0.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }
